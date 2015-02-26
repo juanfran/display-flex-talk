@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: green;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.box1 {
+  background-color: red;
+  width: 200px;
+}
+
+.box2 {
+  align-self: flex-start;
+  background-color: blue;
+  width: 100%;
+}
+
+.box3 {
+  background-color: black;
+  width: 200px;
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  width: 960px;
+  margin: 20px auto 0;
+  border: 1px solid #000;
+}
+
+.box1 {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.box1:hover { flex-direction: column-reverse; }
+
+.box1:hover .box2 { order: 3; }
+.box3:hover .box2 { order: 2; }
+.box4:hover .box2 { order: 2; }
+
+h1 {
+  margin: 0;
+}
+
+.box-wrapper {
+  display: flex;
+  height: 500px;
+}
+
+.box2 {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.box3 {
+  background-color: black;
+  flex-grow: 2;
+}
+
+.box4 {
+  background-color: green;
+  flex-grow: 3;
+}

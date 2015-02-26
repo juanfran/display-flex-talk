@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+}
+
+.box1 {
+  background-color: red;
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.box2 {
+  background-color: blue;
+  width: 100%;;
+}

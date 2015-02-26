@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {}
+
+.box1 {
+  align-items: center;
+  background-color: red;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 400px;
+}
+
+.a {
+  height: 200px;
+}
+
+.b {
+  height: 300px;
+}
+
+.c {
+  height: 400px;
+}
+
+.c {
+  height: 500px;
+}

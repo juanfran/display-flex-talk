@@ -1,0 +1,73 @@
+.wrapper {
+  width: 80%;
+  height: 80vh;
+  margin: 20px auto 0;
+  border: 1px solid #000;
+  display: flex;
+}
+
+.wrapper div {
+
+}
+
+.box1 {
+  background-color: red;
+  width: 25%;
+}
+
+.box2 {
+  background-color: blue;
+  width: 25%;
+}
+
+.box3 {
+  background-color: black;
+  width: 25%;
+}
+
+.box4 {
+  background-color: green;
+  width: 25%;
+}
+
+
+/*
+  flex: 0 1 auto; grow shrink basis
+
+  display: flex;
+      - aumentar el ancho
+
+  flex-direction: row | row-reverse | column | column-reverse;
+      - column fijar un alt
+      - aumentar mucho el alto
+
+  flex-wrap: nowrap | wrap;
+      - aumentar ancho
+
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+      - poner display: none a uno
+      - space around como si le pusiese un margin a todos, el espacio entre el 1 y el 2 es el doble del borde
+
+  align-items: flex-start | flex-end | center | baseline | stretch;
+      - baseline, poner uno menos height que otro
+      - el baseline poner a todos un alto y luego poner a uno un padding, si tuviese texto se ve claro
+      - strech rellena el contenedor pero sin ganas
+
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+      - flex-start, flex-wrap, height: 20, ponerlo 3 lineas
+      - quitar alto para el stretch
+
+  order: -1
+
+  flex-grow
+      - quitar todos los anchos y poner flex-grow: 1
+
+  flex-shrink(1)
+      -explicar con 2 elementos, solo sabes el ancho de 1 elemento(300px y 100%) min-width
+
+  flex-basis
+       - flex-grow: 1
+       - poner a 1 caja 300 y restar su tamaño al del resto
+
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+*/

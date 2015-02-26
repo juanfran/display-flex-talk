@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box1 {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  padding: 20px;
+  width: 200px;
+}
+
+.box1 .end {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
